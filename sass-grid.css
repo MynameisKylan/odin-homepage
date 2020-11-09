@@ -1,0 +1,55 @@
+.row {
+  margin: 0 10px;
+  width: 830px;
+  display: flex;
+  margin: 0 auto; }
+
+.col-1 {
+  margin: 0 10px;
+  width: 60px; }
+
+.col-2 {
+  margin: 0 10px;
+  width: 130px; }
+
+.col-3 {
+  margin: 0 10px;
+  width: 200px; }
+
+.col-4 {
+  margin: 0 10px;
+  width: 270px; }
+
+.col-5 {
+  margin: 0 10px;
+  width: 340px; }
+
+.col-6 {
+  margin: 0 10px;
+  width: 410px; }
+
+.col-7 {
+  margin: 0 10px;
+  width: 480px; }
+
+.col-8 {
+  margin: 0 10px;
+  width: 550px; }
+
+.col-9 {
+  margin: 0 10px;
+  width: 620px; }
+
+.col-10 {
+  margin: 0 10px;
+  width: 690px; }
+
+.col-11 {
+  margin: 0 10px;
+  width: 760px; }
+
+.col-12 {
+  margin: 0 10px;
+  width: 830px; }
+
+/*# sourceMappingURL=sass-grid.css.map */

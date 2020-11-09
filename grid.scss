@@ -1,0 +1,61 @@
+$column-width: 60px;
+$margin-width: 10px;
+
+@mixin grid-unit($span) {
+  margin: 0 $margin-width;
+  width: ($column-width * $span) + ($margin-width * ($span - 1));
+}
+
+.row {
+  @include grid-unit(12);
+  display:flex;
+  margin: 0 auto;
+}
+
+.col-1 {
+  @include grid-unit(1)
+}
+
+.col-2 {
+  @include grid-unit(2)
+}
+
+.col-3 {
+  @include grid-unit(3)
+}
+
+.col-4 {
+  @include grid-unit(4)
+}
+
+.col-5 {
+  @include grid-unit(5)
+}
+
+.col-6 {
+  @include grid-unit(6)
+}
+
+.col-7 {
+  @include grid-unit(7)
+}
+
+.col-8 {
+  @include grid-unit(8)
+}
+
+.col-9 {
+  @include grid-unit(9)
+}
+
+.col-10 {
+  @include grid-unit(10)
+}
+
+.col-11 {
+  @include grid-unit(11)
+}
+
+.col-12 {
+  @include grid-unit(12)
+}
